@@ -1,0 +1,55 @@
+.cardBorder {
+  width: 654px;
+  height: 318px;
+  position: relative;
+  padding: 9px;
+}
+
+.cardMain {
+  display: flex;
+  position: absolute;
+  width: 654px;
+  height: 318px;
+  background: #0d0526;
+  border-radius: 10px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  align-items: center;
+  margin-left: 43px;
+  margin-top: 55px;
+}
+.cardTitle {
+  display: flex;
+  width: 397px;
+  height: 49px;
+  margin-left: 25px;
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 49px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+img {
+  width: 40px;
+}
+
+.cardText {
+  position: absolute;
+  width: 576px;
+  height: 90px;
+  left: 43px;
+  top: 141px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  color: #ffffff;
+}
